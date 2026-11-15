@@ -1,0 +1,26 @@
+{
+  "name": "red-dust-outpost",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Red Dust: Jezero Outpost - a Mars survival game for ages 7-12 that teaches real power, air and radiation trade-offs with NASA data. AI (SI) assisted: code, illustrations and text were produced with SI tools and reviewed by a human.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10",
+    "vitest": "^2.1.4"
+  }
+}
